@@ -1,0 +1,21 @@
+/* LessonCard.css */
+
+.lesson-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  width: 85px;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgb(10, 10, 10);
+}
+
+h2, p {
+  margin: 0;
+}
