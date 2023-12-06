@@ -1,18 +1,17 @@
-
-.header{
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    margin: 1rem auto;
-    margin-left: -30px;
-    color: antiquewhite;
+.header {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: 1rem auto;
+  margin-left: -30px;
+  color: antiquewhite;
 }
 
-
-.header h1{
-    background-color: blueviolet;
-    border: 2px solid rgb(51, 47, 44);
-    text-align: center;
-    display: inline;
-    padding: 1rem;
+.header h1 {
+  background-color: blueviolet;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  padding: 1rem;
+  box-shadow: 0px 0px 55px 10px rgba(235, 239, 241, 0.74);
 }
