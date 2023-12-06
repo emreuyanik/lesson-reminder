@@ -1,10 +1,25 @@
 /* LessonCard.css */
+.enez {
+  box-shadow: 0 0 55px rgba(124, 46, 212, 0.4) ;
+  display: flex;
+ border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+ margin: 1rem;
+ background-color: rgb(91, 91, 161);
+ color: bisque;
 
+}
 .lesson-card {
+
+ 
+  margin: 1rem;
+  width: 270px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 1rem;
-  
+  margin-right: 3rem;
 }
 
 img {
@@ -13,9 +28,10 @@ img {
   height: 80px;
   width: 85px;
   margin-bottom: 0.5rem;
-  border: 1px solid rgb(10, 10, 10);
+  margin-right: 0.5rem;
 }
 
-h2, p {
+h2
+p {
   margin: 0;
 }

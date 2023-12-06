@@ -7,14 +7,16 @@ import { data } from './data';
 
 const App = () => {
   return (
-    <>
-      <Header />
-      
+    <div className='emre'>
+      <Header className="" />
+
+      <div className='emre2'>
         {data.map((lesson) => (
             <LessonCard key={lesson.id} lesson={lesson} />
-        ))}
+        ))}</div>
       
-    </>
+      
+    </div>
   );
 };
 

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  
+       height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:normal;
+        background: rgb(2,0,36);
+        background: linear-gradient(45deg, rgb(94, 88, 204) 0%, rgba(9,60,121,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+        background-repeat: no-repeat;
+    
+}
+
+
+.emre2{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
